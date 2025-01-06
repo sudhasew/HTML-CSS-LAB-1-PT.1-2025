@@ -88,3 +88,79 @@ a {
   text-decoration: none;
   padding: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .chirpus {
+    margin-top: 30px;
+  }
+
+  .ulNavList {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .headerli {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #hireus {
+    padding: 5px;
+    font-size: 12px;
+    width: 55px;
+  }
+
+  .mid-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .desc {
+    width: 50%;
+  }
+
+  #calltoaction {
+    width: 50%;
+    padding: 8px;
+    margin-top: 0;
+  }
+
+  .large-cirlce {
+    position: absolute;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(247, 136, 167, 0.6);
+  }
+
+  .medium-cirlce {
+    position: relative;
+    left: 17%;
+    top: 55px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: rgba(247, 193, 162, 0.7);
+    z-index: 1;
+  }
+
+  .small-cirlce {
+    position: relative;
+    right: 5%;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgba(207, 130, 213, 0.6);
+  }
+}
